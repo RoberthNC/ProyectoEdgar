@@ -1,0 +1,45 @@
+.formulario{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+
+    input[type=submit]{
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    input[type=text]{
+        padding: 1.5rem;
+        border-radius: 10px;
+    }
+
+    .formulario_campos{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+
+        label{
+            font-size: 24px;
+        }
+
+        input{
+            border-radius: 10px;
+            padding: 1rem;
+        }
+    }
+
+    .formulario_boton{
+        margin: 0 auto;
+
+        input{
+            border-radius: 5px;
+            padding: 1rem 2rem;
+        }
+    }
+
+}
+

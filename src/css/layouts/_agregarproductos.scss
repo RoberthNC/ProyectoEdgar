@@ -1,0 +1,14 @@
+.agregar-producto{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    padding: 5rem 3rem 10rem 3rem;
+    border: 2px solid black;
+}
+
+.contenedor-volver{
+    padding: 5rem 2rem;
+    a{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,45 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 28px;
+}
+
+h2{
+    font-size:24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.contenedor{
+    max-width: 1200px;
+    width: 1200px;
+    margin: auto;
+}

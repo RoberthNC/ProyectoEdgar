@@ -1,0 +1,215 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.contenedor {
+  max-width: 1200px;
+  width: 1200px;
+  margin: auto;
+}
+
+.formulario {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+}
+.formulario input[type=submit] {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.formulario input[type=text] {
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.formulario .formulario_campos {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+.formulario .formulario_campos label {
+  font-size: 24px;
+}
+.formulario .formulario_campos input {
+  border-radius: 10px;
+  padding: 1rem;
+}
+.formulario .formulario_boton {
+  margin: 0 auto;
+}
+.formulario .formulario_boton input {
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+
+.contenedor_sesion {
+  border: 1px solid black;
+  height: 80vh;
+  margin-top: 10vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contenedor_sesion .contenedor_sesion__titulo {
+  margin-bottom: 6rem;
+}
+
+.contenedor-layout {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.sidebard {
+  height: 100vh;
+  border: 2px solid blue;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15vh;
+  height: 100%;
+}
+nav a {
+  font-size: 28px;
+  text-align: center;
+}
+
+.main {
+  border: 2px solid red;
+}
+
+.contenedor-categorias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.agregar_categorias {
+  margin: auto 0;
+  border: 2px solid black;
+  padding: 2rem 0 4rem 0;
+}
+.agregar_categorias h2 {
+  text-align: left;
+  margin-bottom: -2rem;
+}
+
+.listar_categorias {
+  margin: auto 0;
+  border: 2px solid black;
+  padding: 2rem 0 4rem 0;
+}
+.listar_categorias li {
+  font-size: 16px;
+}
+
+.contenedor-productos {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+}
+
+.productos-agregar {
+  margin: auto 2rem auto 0;
+  text-align: right;
+}
+.productos-agregar a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background-color: #cccccc;
+}
+
+.contenedor-tabla {
+  padding: 1rem;
+}
+.contenedor-tabla .tabla-productos {
+  margin: 0 auto;
+  width: 70%;
+}
+.contenedor-tabla .tabla-productos tr th, .contenedor-tabla .tabla-productos tr td {
+  text-align: center;
+  padding: 2px 10px;
+  font-size: 20px;
+}
+
+.borde {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.borde:first-of-type {
+  border-left: 2px solid black;
+}
+
+.borde:nth-child(5) {
+  border-right: 2px solid black;
+}
+
+.basura {
+  background-image: url("./../../imagenes/papelera-de-reciclaje.png");
+  background-size: cover;
+  background-color: red;
+}
+
+.agregar-producto {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  padding: 5rem 3rem 10rem 3rem;
+  border: 2px solid black;
+}
+
+.contenedor-volver {
+  padding: 5rem 2rem;
+}
+.contenedor-volver a {
+  font-size: 24px;
+}

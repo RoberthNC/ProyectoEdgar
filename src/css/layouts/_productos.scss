@@ -1,0 +1,56 @@
+.contenedor-productos{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.productos-agregar{
+    margin: auto 2rem auto 0;
+    text-align: right;
+    a{
+        font-size: 20px;
+        text-decoration: none;
+        color: $negro;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        background-color: lighten($color: #000000, $amount: 80%);
+    }
+}
+
+.contenedor-tabla{
+    padding: 1rem;
+
+    .tabla-productos{
+        margin: 0 auto;
+        width: 70%;
+        tr{
+            th,td{
+                text-align: center;
+                padding: 2px 10px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.borde{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.borde:first-of-type{
+    border-left: 2px solid black;
+}
+
+.borde:nth-child(5){
+    border-right: 2px solid black;
+}
+
+
+
+.basura{
+    background-image: url("./../../imagenes/papelera-de-reciclaje.png");
+    background-size: cover;
+    background-color: red;
+}

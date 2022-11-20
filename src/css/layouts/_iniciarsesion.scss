@@ -1,0 +1,15 @@
+.contenedor_sesion{
+    border: 1px solid black;
+    height: 80vh;
+    margin-top: 10vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .contenedor_sesion__titulo{
+        margin-bottom: 6rem;
+    }
+}
+
+
