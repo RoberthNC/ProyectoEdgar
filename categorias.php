@@ -25,7 +25,7 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){
     <div class="agregar_categorias">
         <form action="" method="POST" class="formulario">
             <h2>Agregar Categoría</h2>
-            <input type="text" name="categoria">
+            <input type="text" name="categoria" placeholder="Agrega una Categoria">
             <input type="submit" value="Agregar Categoría">
         </form>
     </div>

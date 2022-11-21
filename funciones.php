@@ -6,4 +6,10 @@ function debugear($datos){
 
     exit;
 }
+function paginaActual($url){
+    if(str_contains($_SERVER["REQUEST_URI"],$url)){
+        return true;
+    }   
+    return false;
+}
 ?>

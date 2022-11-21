@@ -5,24 +5,50 @@
     grid-template-columns: 1fr 4fr;
 }
 
-.sidebard{
+.sidebar{
     height: 100vh;
-    border: 2px solid blue;
+    background-color: $secundario;
+    display:flex;
+    flex-direction: column;
+
+    &__menu-inicio{
+        text-align: center;
+        color:white;
+        font-weight: 800;
+        margin:5rem 0 10rem 0;
+        font-size: 32px;
+    }
 }
 
 nav{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    row-gap: 15vh;
+    row-gap: 5rem;
     height: 100%;
+    width: 95%;
+    margin: 0 auto;
     a{
-        font-size: 28px;
+        color:white;
+        background-color: darken($secundario,10);
+        border-radius: 0.5rem;
+        padding:2rem 0;
+        box-shadow: 2px 0px 5px 3px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 0px 5px 3px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 0px 5px 3px rgba(0,0,0,0.75);        font-size: 24px;
         text-align: center;
+
+        &:hover{
+            background-color: darken($secundario,20);
+
+        }
+    }
+    .seleccionado{
+        background-color: darken($secundario,20);
+
     }
 }
 
 .main{
-    border: 2px solid red;
-    
+    background-color: $menu;
+
 }
