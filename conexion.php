@@ -1,7 +1,7 @@
 <?php
 
 function ConexionBD(){
-    $db = mysqli_connect("localhost","root","","tiendarosas");
+    $db = mysqli_connect("localhost","root","Flash123","tiendarosas");
 
     return $db;
 }

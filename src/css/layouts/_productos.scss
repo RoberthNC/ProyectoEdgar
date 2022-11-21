@@ -29,7 +29,19 @@
                 text-align: center;
                 padding: 2px 10px;
                 font-size: 20px;
+                background-color: white;
+                
             }
+            .sin-borde_td,
+            .sin-borde_th
+            {
+                background-color: transparent;
+
+            }
+            .sin-borde_td{
+                border-radius: 10%;
+            }
+
         }
     }
 }
@@ -37,20 +49,40 @@
 .borde{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+    background-color: white;
 }
 
 .borde:first-of-type{
     border-left: 2px solid black;
+    background-color:transparent;
+    
 }
 
 .borde:nth-child(5){
     border-right: 2px solid black;
+    background-color: transparent;
 }
 
+.actualizar{
+    background-color:green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:8px 9px;
 
+    border-radius: 5px;
 
+}
 .basura{
-    background-image: url("./../../imagenes/papelera-de-reciclaje.png");
-    background-size: cover;
-    background-color: red;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    color:white;
+    font-weight: 900;
+    background-color:rgb(134, 16, 16) ;
+    padding:8px 15px;
+    border-radius: 5px;
+    &:hover{
+        cursor: pointer;
+    }
 }
